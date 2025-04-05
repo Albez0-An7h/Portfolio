@@ -1,10 +1,21 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }],
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist",
-  "images": {
-    "sizes": [640, 750, 828, 1080, 1200],
-    "domains": [],
-    "remotePatterns": []
-  }
+    "rewrites": [
+        {
+            "source": "/(.*)",
+            "destination": "/"
+        }
+    ],
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "images": {
+        "sizes": [
+            640,
+            750,
+            828,
+            1080,
+            1200
+        ],
+        "domains": [],
+        "remotePatterns": []
+    }
 }

@@ -48,7 +48,7 @@ const About = () => {
                             whileHover={{ scale: 1.05 }}
                         >
                             <img
-                                src="/profile-pic.jpeg"
+                                src="/images/profile-pic.jpeg"
                                 alt="Albezo"
                                 className="w-full h-full object-cover"
                             />

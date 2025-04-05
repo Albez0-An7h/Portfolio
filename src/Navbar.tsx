@@ -32,7 +32,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <Link to="/" className="flex items-center gap-2">
           <div className="h-10 w-10 rounded-full bg-[#78A083]/20 overflow-hidden border-2 border-[#78A083] flex items-center justify-center">
-            <img src="/sign.jpg" alt="Logo" className="h-full w-full object-cover" />
+            <img src="/images/sign.jpg" alt="Logo" className="h-full w-full object-cover" />
           </div>
           <span className="text-xl font-bold text-white relative">
             <span className="bg-gradient-to-r from-[#78A083] to-white bg-clip-text text-transparent">Albez0</span>

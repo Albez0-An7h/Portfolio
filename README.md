@@ -2,8 +2,6 @@
 
 A modern, interactive portfolio website featuring a unique terminal-based interface and sleek design to showcase projects, skills, and professional experience.
 
-![Portfolio Preview](https://via.placeholder.com/800x400?text=Terminal+Portfolio+Preview)
-
 ## Features
 
 - Interactive terminal interface with command processing
@@ -33,7 +31,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-For any inquiries, please reach out through the contact form on the website or directly via email at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries, please reach out through the contact form on the website or directly via email at [ansh.km7096@gmail.com](mailto:ansh.km7096@gmail.com).
 
 ### Favicon by: <a href="https://www.flaticon.com/free-icons/thief" title="thief icons">Thief icons created by Ch.designer - Flaticon</a>
 

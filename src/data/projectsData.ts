@@ -16,7 +16,7 @@ export const projects: Project[] = [
         tags: ["React", "TypeScript", "ThreeJS", "Framer Motion"],
         githubUrl: "https://github.com/username/devos",
         hostedUrl: "https://devos-portfolio.example.com",
-        image: "/projects/devos.png"
+        image: "/images/projects/devos.png"
     },
     {
         id: "HabitOverflow",
