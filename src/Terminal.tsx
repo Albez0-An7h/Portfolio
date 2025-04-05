@@ -9,7 +9,7 @@ let VANTA: any = null;
 
 interface Command {
     command: string;
-    response: string | JSX.Element;
+    response: string | React.ReactNode;
 }
 
 // Define available pages for navigation

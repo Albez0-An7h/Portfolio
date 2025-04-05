@@ -1,4 +1,3 @@
-import React from 'react'
 import { TbError404Off } from "react-icons/tb";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
