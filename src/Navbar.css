@@ -1,0 +1,65 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background-color: #1e1e1e;
+  color: white;
+  font-family: monospace;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.command-section {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.prompt {
+  color: #0f0;
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.command-input {
+  background-color: transparent;
+  border: none;
+  color: #0f0;
+  font-family: monospace;
+  font-size: 1rem;
+  outline: none;
+  width: 100%;
+}
+
+.command-input::placeholder {
+  color: rgba(0, 255, 0, 0.5);
+}
+
+/* Modern navbar styles */
+.navbar-modern {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  padding: 1rem 0;
+  background-color: #344955;
+  background: linear-gradient(to right, rgba(52, 73, 85, 0.95), rgba(80, 114, 123, 0.95));
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(120, 160, 131, 0.1);
+}
