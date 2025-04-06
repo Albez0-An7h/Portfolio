@@ -10,7 +10,7 @@ console.log(
   'background: #50727B; color: white; font-size: 14px; padding: 8px; border-radius: 0 5px 5px 0;'
 );
 console.log(
-  '%c💻 Designed & Developed with %c❤️ %cby Albez0-An7h',
+  '%c💻 Designed & Developed %c%cby Albez0-An7h',
   'color: white; font-size: 14px;', 
   'color: #ff6b6b; font-size: 14px;',
   'color: #78A083; font-size: 14px; font-weight: bold;'
