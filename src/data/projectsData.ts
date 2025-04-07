@@ -14,8 +14,8 @@ export const projects: Project[] = [
         title: "DevOS Terminal Portfolio",
         description: "Designed and developed a personal portfolio to highlight projects, skills, and achievements in a minimal yet modern interface.",
         tags: ["React", "TypeScript", "ThreeJS", "Framer Motion", "Tailwind"],
-        githubUrl: "https://github.com/username/devos",
-        hostedUrl: "https://devos-portfolio.example.com",
+        githubUrl: "https://github.com/Albez0-An7h/Portfolio",
+        hostedUrl: "https://portfolio-albez0-an7h.vercel.app/",
         image: "/images/DevOs.png"
     },
     {
