@@ -54,6 +54,56 @@ const About = () => {
                             />
                         </motion.div>
                     </div>
+
+                    {/* Personal Information */}
+                    <motion.div 
+                        className="w-full max-w-md mx-auto mb-12 bg-[#344955]/80 backdrop-blur-md rounded-lg overflow-hidden border border-[#50727B]/30 shadow-lg"
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.4, duration: 0.6 }}
+                    >
+                        <div className="p-6">
+                            <h3 className="text-xl font-bold text-[#78A083] mb-4 text-center">Personal Info</h3>
+                            
+                            <div className="space-y-4">
+                                <div className="flex items-center border-b border-[#50727B]/30 pb-2">
+                                    <span className="font-medium text-[#78A083] min-w-24">Name</span>
+                                    <span className="text-white">Ansh Kumar</span>
+                                </div>
+                                
+                                <div className="flex items-center border-b border-[#50727B]/30 pb-2">
+                                    <span className="font-medium text-[#78A083] min-w-24">Date of Birth</span>
+                                    <span className="text-white">07/09/2006</span>
+                                </div>
+                                
+                                <div className="flex items-center border-b border-[#50727B]/30 pb-2">
+                                    <span className="font-medium text-[#78A083] min-w-24">Address</span>
+                                    <span className="text-white">Pune, India</span>
+                                </div>
+                                
+                                <div className="flex items-center pb-2">
+                                    <span className="font-medium text-[#78A083] min-w-24">College</span>
+                                    <span className="text-white">Newton School of Technology</span>
+                                </div>
+                            </div>
+                            
+                            <div className="mt-6 flex justify-center">
+                                <motion.a
+                                    href="/Ansh Kumar Resume (1).pdf"
+                                    download
+                                    className="px-6 py-3 bg-[#78A083] text-white font-medium rounded-lg hover:bg-[#78A083]/80 transition-colors duration-300 flex items-center gap-2 shadow-lg"
+                                    whileHover={{ scale: 1.05 }}
+                                    whileTap={{ scale: 0.95 }}
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                    </svg>
+                                    Download CV
+                                </motion.a>
+                            </div>
+                        </div>
+                    </motion.div>
+
                 </div>
 
                 {/* Timeline */}
