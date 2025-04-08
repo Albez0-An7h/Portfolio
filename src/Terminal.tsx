@@ -201,6 +201,21 @@ const Terminal = () => {
             {/* Background */}
             <div ref={backgroundRef} className="absolute inset-0 z-0"></div>
 
+            {/* About Button - Added to the top right */}
+            <motion.button
+                className="absolute top-6 right-6 z-20 px-4 py-2 bg-[#78A083] text-white rounded-md hover:bg-[#78A083]/80 transition-colors shadow-lg flex items-center gap-2"
+                onClick={() => navigate('/about')}
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 1.2, duration: 0.5 }}
+                whileHover={{ y: -3, boxShadow: "0 10px 15px -3px rgba(0, 0, 0, 0.3)" }}
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd" />
+                </svg>
+                About Me
+            </motion.button>
+
             <div className="relative z-10 h-full w-full flex items-center justify-center p-4">
                 <AnimatePresence>
                     {!bootComplete ? (
