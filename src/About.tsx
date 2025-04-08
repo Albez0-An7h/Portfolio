@@ -72,7 +72,7 @@ const About = () => {
                                 </div>
                                 
                                 <div className="flex items-center border-b border-[#50727B]/30 pb-2">
-                                    <span className="font-medium text-[#78A083] min-w-24">Date of Birth</span>
+                                    <span className="font-medium text-[#78A083] min-w-24">D.O.B</span>
                                     <span className="text-white">07/09/2006</span>
                                 </div>
                                 
