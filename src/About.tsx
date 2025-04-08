@@ -89,7 +89,7 @@ const About = () => {
                             
                             <div className="mt-6 flex justify-center">
                                 <motion.a
-                                    href="/Ansh Kumar Resume (1).pdf"
+                                    href="/Ansh_Kumar_Resume.pdf"
                                     download
                                     className="px-6 py-3 bg-[#78A083] text-white font-medium rounded-lg hover:bg-[#78A083]/80 transition-colors duration-300 flex items-center gap-2 shadow-lg"
                                     whileHover={{ scale: 1.05 }}
